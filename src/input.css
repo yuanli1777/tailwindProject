@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-image:linear-gradient(to bottom ,rgba(255, 255, 255, 0.9),rgb(255, 249, 62,0.5)) ;
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+
+.nav li{
+    padding-right: 40px;
+}
+
+
+.top-info{
+    position: relative;
+    top: 60px;
+    z-index: 2;
+}
+
+.article h1{
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.btn{
+    gap:calc(10px)
+}
+
+.btn button{
+    border: 1px solid teal;
+    border-radius: 3px;
+}
+
+.bg-section{
+    height: 70vh;
+    background-image: url(./img/donate.avif);
+    background-size:cover;
+    filter: blur(2px);
+}
